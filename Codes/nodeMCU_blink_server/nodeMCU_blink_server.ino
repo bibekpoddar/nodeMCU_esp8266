@@ -1,11 +1,4 @@
 
-//#include <ESP8266WiFi.h>
-#include <WiFiClient.h>
-#include <ESP8266WebServer.h>
- 
-// Replace with your network credentials
-const char* ssid = "curiosta";  //your own wifi ssid
-const char* password = "12345678";  //pwd
 /* A simple blink server code 
 
 The code will connect to the NodeMCU from your local network through an
@@ -14,6 +7,15 @@ IP displayed on the serial monitor and control an LED on/off
 Pins : Cathode --> D2
         Annode ---> GND
 */ 
+
+#include <ESP8266WiFi.h>
+#include <WiFiClient.h>
+#include <ESP8266WebServer.h>
+ 
+// Replace with your network credentials
+const char* ssid = "curiosta";  //your own wifi ssid
+const char* password = "12345678";  //pwd
+
 
 
 
