@@ -25,7 +25,7 @@ String page = "";
 int LEDPin = D2;
 void setup(void){
   //the HTML of the web page
-  page = "<h1>Simple NodeMCU Web Server</h1><p><a href=\"LEDOn\"><button>ON</button></a>&nbsp;<a href=\"LEDOff\"><button>OFF</button></a></p>";
+  page = "<center><h1>Simple NodeMCU Web Server</h1><br<<br><p><a href=\"LEDOn\"><button>ON</button></a>&nbsp;<a href=\"LEDOff\"><button>OFF</button></a></p><center>";
   //make the LED pin output and initially turned off
   pinMode(LEDPin, OUTPUT);
   digitalWrite(LEDPin, LOW);
